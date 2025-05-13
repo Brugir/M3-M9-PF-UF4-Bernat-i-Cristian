@@ -1,0 +1,16 @@
+@{
+    ViewBag.Title = "Cerca per regió de Pokémon";
+}
+<h2>Cerca per regió de Pokémon</h2>
+<form asp-action="SearchByRegion" method="post" id="regionForm">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;">
+        @foreach (var region in new[]{ "kanto", "johto", "hoenn", "sinnoh", "unova", "kalos", "alola", "galar", "paldea" })
+        {
+            <button type="submit" name="region" value="@region" class="region-btn">@region</button>
+        }
+    </div>
+</form>
+@if (ViewBag.Error != null)
+{
+    <div style="color:red">@ViewBag.Error</div>
+}

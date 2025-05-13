@@ -1,0 +1,39 @@
+@model List<PokeDexWeb.Models.PokemonFavorite>
+@{
+    ViewBag.Title = "Favorits";
+}
+<h2>Pokémons Favorits</h2>
+<hr />
+<!-- Formulari de test per afegir favorits manualment -->
+<form action="/Pokemon/AddFavorite" method="post">
+    @Html.AntiForgeryToken()
+    <input type="text" name="name" placeholder="Nom de prova" required />
+    <input type="text" name="imageUrl" placeholder="URL de la imatge" required />
+    <button type="submit">Afegir Favorit (test)</button>
+</form>
+<hr />
+@if (Model != null && Model.Count > 0)
+{
+    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        @foreach (var fav in Model)
+        {
+            if (fav != null)
+            {
+                <div style="border: 1px solid #ccc; padding: 10px; width: 180px; text-align: center; background: #f9f9f9; border-radius: 8px;">
+                    <img src="@fav.ImageUrl" alt="@fav.Name" style="width: 100px; height: 100px;" />
+                    <h4>@fav.Name?.ToUpper()</h4>
+                    <button onclick="openPokedexModal('@fav.Name')" style="margin-bottom:8px;background:#3498db;color:#fff;border:none;padding:5px 10px;border-radius:4px;">Detall</button>
+                    <form asp-action="RemoveFavorite" method="post" style="margin-top:10px;">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="id" value="@fav.Id" />
+                        <button type="submit" style="background:#e74c3c;color:#fff;border:none;padding:5px 10px;border-radius:4px;">Eliminar</button>
+                    </form>
+                </div>
+            }
+        }
+    </div>
+}
+else
+{
+    <div>No tens cap pokémon als favorits.</div>
+}

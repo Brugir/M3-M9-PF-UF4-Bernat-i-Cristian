@@ -1,0 +1,56 @@
+@model PokeDexWeb.Models.PokemonApiModel
+
+@{
+    var poke = Model;
+    var evolutionStages = Model.EvolutionLine;
+}
+
+@if (poke == null) {
+    <div>No s'ha trobat el Pokémon.</div>
+} else {
+    <div style="text-align:center;">
+        <img src="@poke.SpriteUrl" alt="@poke.Name" style="width:120px;height:120px;" />
+        <h2 style="margin:10px 0;">@poke.Name.ToUpper()</h2>
+        <div>
+            <b>Tipus:</b>
+            @foreach (var t in poke.Types)
+            {
+                <span style="display:inline-block;background:#eee;padding:2px 8px;margin:2px;border-radius:8px;">@t</span>
+            }
+        </div>
+        <div style="margin:10px 0;">
+            <b>Estadístiques:</b>
+            <ul style="list-style:none;padding:0;">
+                <li>HP: @poke.Stats.Hp</li>
+                <li>Atac: @poke.Stats.Attack</li>
+                <li>Defensa: @poke.Stats.Defense</li>
+                <li>Atac especial: @poke.Stats.SpecialAttack</li>
+                <li>Defensa especial: @poke.Stats.SpecialDefense</li>
+                <li>Velocitat: @poke.Stats.Speed</li>
+            </ul>
+        </div>
+        <div style="margin:10px 0;">
+            <b>Evolució:</b>
+            @if (evolutionStages != null && evolutionStages.Count > 0)
+            {
+                foreach (var evoName in evolutionStages)
+                {
+                    <span style="display:inline-block;background:#d1e7dd;padding:2px 8px;margin:2px;border-radius:8px;">@evoName</span>
+                }
+            }
+            else
+            {
+                <span>No té evolució</span>
+            }
+        </div>
+    </div>
+}
+
+@functions {
+    public int GetPokemonId(string name) {
+        var dict = new Dictionary<string, int> {
+            {"bulbasaur", 1}, {"ivysaur", 2}, {"venusaur", 3}, {"charmander", 4}, {"charmeleon", 5}, {"charizard", 6},
+        };
+        return dict.ContainsKey(name) ? dict[name] : 1;
+    }
+}

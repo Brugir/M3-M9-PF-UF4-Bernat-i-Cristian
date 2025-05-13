@@ -1,0 +1,16 @@
+@{
+    ViewBag.Title = "Cerca per tipus de Pokémon";
+}
+<h2>Cerca per tipus de Pokémon</h2>
+<form asp-action="SearchByType" method="post" id="typeForm">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;">
+        @foreach (var type in new[]{ "normal", "fire", "water", "grass", "electric", "ice", "fighting", "poison", "ground", "flying", "psychic", "bug", "rock", "ghost", "dark", "dragon", "steel", "fairy" })
+        {
+            <button type="submit" name="type" value="@type" class="type-btn">@type</button>
+        }
+    </div>
+</form>
+@if (ViewBag.Error != null)
+{
+    <div style="color:red">@ViewBag.Error</div>
+}

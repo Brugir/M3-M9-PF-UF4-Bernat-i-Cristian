@@ -1,0 +1,27 @@
+@model List<PokeDexWeb.Models.PokemonFavorite>
+
+@{
+    ViewData["Title"] = "Pokémons Favorits";
+}
+
+<h1>Pokémons Favorits</h1>
+
+<a class="btn btn-primary" href="/Pokemon/Add">Afegir nou Pokémon</a>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Imatge</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var poke in Model)
+        {
+            <tr>
+                <td>@poke.Name</td>
+                <td><img src="@poke.ImageUrl" width="100" /></td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,53 @@
+@model List<PokeDexWeb.Models.PokemonApiModel>
+@{
+    ViewBag.Title = "Pokémons per regió";
+}
+<h2>Pokémons per regió</h2>
+@if (Model == null || Model.Count == 0)
+{
+    <div>No s'han trobat pokémons per aquesta regió.</div>
+}
+else
+{
+    <div style="display:flex;flex-wrap:wrap;gap:24px;margin-top:20px;justify-content:center;">
+        @foreach (var poke in Model)
+        {
+            <div style="border:1px solid #ccc;padding:16px;border-radius:12px;min-width:180px;text-align:center;background:#fafaff;">
+                <img src="@poke.SpriteUrl" alt="@poke.Name" style="width:100px; height:100px;" />
+                <h3>@poke.Name.ToUpper()</h3>
+                <div>
+                    Tipus:
+                    @foreach (var t in poke.Types)
+                    {
+                        <span style="background: #eee; border-radius: 4px; padding: 2px 6px; margin: 2px;">@t</span>
+                    }
+                </div>
+                <button onclick="addFavorite(this)" data-name="@poke.Name" data-img="@poke.SpriteUrl">Afegir a favorits</button>
+                <button onclick="openPokedexModal('@poke.Name')" style="margin-left:8px;background:#3498db;color:#fff;border:none;padding:5px 10px;border-radius:4px;">Detall</button>
+            </div>
+        }
+    </div>
+}
+@section Scripts {
+    <script>
+        function addFavorite(btn) {
+            const name = btn.getAttribute('data-name');
+            const imageUrl = btn.getAttribute('data-img');
+            fetch('/Pokemon/AddFavorite', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `name=${encodeURIComponent(name)}&imageUrl=${encodeURIComponent(imageUrl)}`
+            })
+            .then(async res => {
+                let msg = '';
+                try {
+                    const data = await res.json();
+                    msg = data.message || (res.ok ? 'Afegit!' : 'Error');
+                } catch(e) {
+                    msg = res.ok ? 'Afegit!' : 'Error desconegut';
+                }
+                alert(msg);
+            });
+        }
+    </script>
+}

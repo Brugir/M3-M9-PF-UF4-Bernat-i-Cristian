@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Afegir Pokémon";
+}
+
+<h1>Afegir Pokémon a Favorits</h1>
+
+<form asp-action="Add" method="post">
+    <div class="form-group">
+        <label for="Name">Nom del Pokémon:</label>
+        <input type="text" name="name" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-success mt-3">Desar</button>
+</form>
