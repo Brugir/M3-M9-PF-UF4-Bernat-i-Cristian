@@ -1,5 +1,11 @@
 # Pokédex Web MVC
 
+## Instrucciones:
+
+- Arrancar la API en la carpeta "api", y de allí abres la terminal, y escribes "python api.py"
+
+- Abrir el cmd del proyecto en general y poner "dotnet run"
+
 ## Motivación
 Los videojuegos de Pokémon es algo que nos a acompañado en nuestras infancias, por eso hemos decidido hacer una página tipo "pokédex" (como una bd de pokémons)
 
