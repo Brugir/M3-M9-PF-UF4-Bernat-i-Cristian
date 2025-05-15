@@ -1,7 +1,7 @@
 # Pokédex Web MVC
 
 ## Motivación
-Me gusta Pokémon.
+Los videojuegos de Pokémon es algo que nos a acompañado en nuestras infancias, por eso hemos decidido hacer una página tipo "pokédex" (como una bd de pokémons)
 
 ## Esquema de arquitectura
 El proyecto sigue la arquitectura MVC (Modelo-Vista-Controlador) de .NET Core:
@@ -28,13 +28,7 @@ El proyecto sigue la arquitectura MVC (Modelo-Vista-Controlador) de .NET Core:
   - Uso de la librería Newtonsoft.Json para la serialización y deserialización de datos JSON.
 
 ## Propuestas de mejora y nuevas funcionalidades
-- Mejorar la accesibilidad y validar la web con herramientas como WAVE.
-- Añadir paginación y filtros avanzados en las búsquedas.
+
 - Implementar autenticación de usuarios para favoritos personalizados.
 - Añadir gráficos y estadísticas de Pokémon.
-- Mejorar la experiencia móvil (responsive design).
-- Internacionalización (i18n) para varios idiomas.
-
----
-
-Este proyecto es un ejemplo de aplicación web MVC en .NET Core consumiendo servicios externos y gestionando datos locales, con una interfaz moderna y personalizable.
+- Mejorar la experiencia móvil
