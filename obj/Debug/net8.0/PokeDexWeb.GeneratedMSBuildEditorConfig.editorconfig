@@ -17,75 +17,75 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PokeDexWeb
 build_property.RootNamespace = PokeDexWeb
-build_property.ProjectDir = C:\Users\Acer\Desktop\DAW2\MP9 - Disseny d'interficie web\UF4\M3-M9-PF-UF4-Bernat-i-Cristian\
+build_property.ProjectDir = C:\Users\Acer\Desktop\M3-9 PF UF4 - copia\PokeDexWeb - copia (2)\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Acer\Desktop\DAW2\MP9 - Disseny d'interficie web\UF4\M3-M9-PF-UF4-Bernat-i-Cristian
+build_property.MSBuildProjectDirectory = C:\Users\Acer\Desktop\M3-9 PF UF4 - copia\PokeDexWeb - copia (2)
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/Home/Index.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/Home/Privacy.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/Pokemon/Add.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/Pokemon/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vblxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/Pokemon/Favorites.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/Pokemon/Favorites.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vblxGYXZvcml0ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/Pokemon/Index.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/Pokemon/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/Pokemon/ListByRegion.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/Pokemon/ListByRegion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vblxMaXN0QnlSZWdpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/Pokemon/ListByType.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/Pokemon/ListByType.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vblxMaXN0QnlUeXBlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/Pokemon/Search.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/Pokemon/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vblxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/Pokemon/SearchByRegion.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/Pokemon/SearchByRegion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vblxTZWFyY2hCeVJlZ2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/Pokemon/SearchByType.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/Pokemon/SearchByType.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vblxTZWFyY2hCeVR5cGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/Pokemon/_PokemonDetailsPartial.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/Pokemon/_PokemonDetailsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vblxfUG9rZW1vbkRldGFpbHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/Shared/Error.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/_ViewImports.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/_ViewStart.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Acer/Desktop/DAW2/MP9 - Disseny d'interficie web/UF4/M3-M9-PF-UF4-Bernat-i-Cristian/Views/Shared/_Layout.cshtml]
+[C:/Users/Acer/Desktop/M3-9 PF UF4 - copia/PokeDexWeb - copia (2)/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-sxf8j6lwoi

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\Desktop\\DAW2\\MP9 - Disseny d'interficie web\\UF4\\M3-M9-PF-UF4-Bernat-i-Cristian\\PokeDexWeb.csproj": {}
+    "C:\\Users\\Acer\\Desktop\\M3-9 PF UF4 - copia\\PokeDexWeb - copia (2)\\PokeDexWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\Desktop\\DAW2\\MP9 - Disseny d'interficie web\\UF4\\M3-M9-PF-UF4-Bernat-i-Cristian\\PokeDexWeb.csproj": {
+    "C:\\Users\\Acer\\Desktop\\M3-9 PF UF4 - copia\\PokeDexWeb - copia (2)\\PokeDexWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\DAW2\\MP9 - Disseny d'interficie web\\UF4\\M3-M9-PF-UF4-Bernat-i-Cristian\\PokeDexWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\M3-9 PF UF4 - copia\\PokeDexWeb - copia (2)\\PokeDexWeb.csproj",
         "projectName": "PokeDexWeb",
-        "projectPath": "C:\\Users\\Acer\\Desktop\\DAW2\\MP9 - Disseny d'interficie web\\UF4\\M3-M9-PF-UF4-Bernat-i-Cristian\\PokeDexWeb.csproj",
+        "projectPath": "C:\\Users\\Acer\\Desktop\\M3-9 PF UF4 - copia\\PokeDexWeb - copia (2)\\PokeDexWeb.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Desktop\\DAW2\\MP9 - Disseny d'interficie web\\UF4\\M3-M9-PF-UF4-Bernat-i-Cristian\\obj\\",
+        "outputPath": "C:\\Users\\Acer\\Desktop\\M3-9 PF UF4 - copia\\PokeDexWeb - copia (2)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,6 +51,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.1, )"
             }
           },
           "imports": [

@@ -16,11 +16,20 @@ builder.Services.AddHttpClient<PokemonService>();
 
 // Afegir suport per a les vistes i el controlador
 builder.Services.AddControllersWithViews();
+// Afegir serveis de Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
 // Configurar la línia de rutes per a l'aplicació
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
+{
+    // Activar Swagger només en desenvolupament
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+else
 {
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();

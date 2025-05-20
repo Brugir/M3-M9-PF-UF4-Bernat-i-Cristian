@@ -2,9 +2,19 @@
 
 ## Instrucciones:
 
-- Arrancar la API en la carpeta "api", y de allí abres la terminal, y escribes "python api.py"
+- Arrancar la API i la web (ara tot és .NET) obrint una terminal a la carpeta arrel del projecte i executant:
 
-- Abrir el cmd del proyecto en general y poner "dotnet run"
+  ```bash
+  dotnet run
+  ```
+
+- Obrir Swagger per veure i provar els endpoints de l'API:
+
+  [http://localhost:5064/swagger](http://localhost:5064/swagger)
+
+- La web MVC també s'arrenca amb el mateix `dotnet run`. Per exemple, pots accedir a l'endpoint de pokémons aquí:
+
+  [http://localhost:5064/pokemons](http://localhost:5064/pokemons)
 
 ## Motivación
 Los videojuegos de Pokémon es algo que nos a acompañado en nuestras infancias, por eso hemos decidido hacer una página tipo "pokédex" (como una bd de pokémons)
