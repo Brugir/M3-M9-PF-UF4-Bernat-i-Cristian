@@ -3680,11 +3680,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Acer\\Desktop\\M3-9 PF UF4 - copia\\PokeDexWeb - copia (2)\\PokeDexWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Acer\\Desktop\\M3-9 PF UF4 - copia\\PokeDexWeb\\PokeDexWeb.csproj",
       "projectName": "PokeDexWeb",
-      "projectPath": "C:\\Users\\Acer\\Desktop\\M3-9 PF UF4 - copia\\PokeDexWeb - copia (2)\\PokeDexWeb.csproj",
+      "projectPath": "C:\\Users\\Acer\\Desktop\\M3-9 PF UF4 - copia\\PokeDexWeb\\PokeDexWeb.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Acer\\Desktop\\M3-9 PF UF4 - copia\\PokeDexWeb - copia (2)\\obj\\",
+      "outputPath": "C:\\Users\\Acer\\Desktop\\M3-9 PF UF4 - copia\\PokeDexWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config"

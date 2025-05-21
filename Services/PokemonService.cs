@@ -12,7 +12,7 @@ namespace PokeDexWeb.Services
         // Obtener todos los pokémon de una región desde la API local
         public async Task<List<PokemonApiModel>> GetPokemonsByRegion(string region)
         {
-            var endpoint = $"http://localhost:5000/api/region/{region.ToLower()}";
+            var endpoint = $"http://localhost:5064/api/pokeapi/region/{region.ToLower()}";
             var response = await _httpClient.GetAsync(endpoint);
             if (!response.IsSuccessStatusCode)
             {
@@ -35,7 +35,7 @@ namespace PokeDexWeb.Services
         // Obtener datos de un Pokémon por nombre desde la API local
         public async Task<PokemonApiModel> GetPokemonByName(string name)
         {
-            var response = await _httpClient.GetAsync($"http://localhost:5000/api/pokemon/{name.ToLower()}");
+            var response = await _httpClient.GetAsync($"http://localhost:5064/api/pokeapi/pokemon/{name.ToLower()}");
             if (response.IsSuccessStatusCode)
             {
                 var options = new System.Text.Json.JsonSerializerOptions { PropertyNameCaseInsensitive = true };
@@ -47,7 +47,7 @@ namespace PokeDexWeb.Services
         // Obtener todos los pokémon de un tipo desde la API local
         public async Task<List<PokemonApiModel>> GetPokemonsByType(string type)
         {
-            var endpoint = $"http://localhost:5000/api/tipo/{type.ToLower()}";
+            var endpoint = $"http://localhost:5064/api/pokeapi/tipo/{type.ToLower()}";
             var response = await _httpClient.GetAsync(endpoint);
             if (!response.IsSuccessStatusCode)
             {

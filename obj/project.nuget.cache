@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PxQgapmsvHimkCVVTduC4id2t9SR+lnRZWCTJ2HYpN9ag85ETyHdqVzPy+KZqJ42o0B/X/2ofv1YyTxBLY6zFg==",
+  "dgSpecHash": "4D3WFj8aC3PBkOfUYZUzCyKCTykIuVisiHDa6PdFjwc14CV7GllYUiWFq/aiimO+IKBg5L0hu63opgMi5cBhDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Acer\\Desktop\\M3-9 PF UF4 - copia\\PokeDexWeb - copia (2)\\PokeDexWeb.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\Desktop\\M3-9 PF UF4 - copia\\PokeDexWeb\\PokeDexWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
